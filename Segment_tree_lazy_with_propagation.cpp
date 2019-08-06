@@ -9,7 +9,7 @@ i64 arr[mx];
 int l,r;
 struct info{
     i64 sum,prop;
-}tree[mx*3];
+}tree[mx*4];
 
 void update(int node,int start,int end,int val)
 {
